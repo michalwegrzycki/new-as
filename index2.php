@@ -2,3 +2,5 @@
 
 echo "To będzie piękne audiostereo !!!";
 
+
+
