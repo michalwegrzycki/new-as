@@ -1,0 +1,86 @@
+{
+    "1": {
+        "method": "changeColumn",
+        "params": [
+            "forums_forums",
+            "topics",
+            {
+                "name": "topics",
+                "type": "INT",
+                "length": null,
+                "decimals": null,
+                "values": [],
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        ]
+    },
+    "2": {
+        "method": "changeColumn",
+        "params": [
+            "forums_forums",
+            "posts",
+            {
+                "name": "posts",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": [],
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": true,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        ]
+    },
+    "3": {
+        "method": "changeColumn",
+        "params": [
+            "forums_forums",
+            "queued_topics",
+            {
+                "name": "queued_topics",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": [],
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        ]
+    },
+    "4": {
+        "method": "changeColumn",
+        "params": [
+            "forums_forums",
+            "queued_posts",
+            {
+                "name": "queued_posts",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": [],
+                "allow_null": false,
+                "default": "0",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        ]
+    }
+}

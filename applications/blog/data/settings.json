@@ -1,0 +1,18 @@
+[
+    {
+        "key": "blog_allow_rss",
+        "default": "1"
+    },
+    {
+        "key": "blog_allow_rssimport",
+        "default": "1"
+    },
+    {
+        "key": "blog_enable_rating",
+        "default": "0"
+    },
+    {
+        "key": "blog_enable_sidebar",
+        "default": "0"
+    }
+]
